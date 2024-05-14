@@ -15,9 +15,19 @@ Add to your Packages/manifest.json
 ```json
 {
   "dependencies": {
-    ...
     "com.kyub.emojisearch": "https://github.com/mingos/com.kyub.emojisearch.git?path=/Assets/KyubEmojiSearchAPI",
-    ...
   }
 }
-```  
+```
+
+## Original Version
+
+If there are no problems, we recommend using this.
+
+```json
+{
+    "dependencies": {
+        "com.kyub.emojisearch": "https://gitlab-ci-token:glpat-c6ymx9eBXkdQhFhCMaLg@gitlab.com/KyubInteractive/kyublibs.git#com.kyub.emojisearch-1.1.5",
+    }
+}
+```
