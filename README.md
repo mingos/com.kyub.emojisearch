@@ -7,3 +7,17 @@ So I decided to create a backup on github.
 
 Unity Forum Thread:
 https://forum.unity.com/threads/full-emoji-support-api-emoji-sequen.660310/
+
+# Usage
+
+Add to your Packages/manifest.json
+
+```json
+{
+  "dependencies": {
+    ...
+    "com.kyub.emojisearch": "https://github.com/mingos/com.kyub.emojisearch.git?path=/Assets/KyubEmojiSearchAPI",
+    ...
+  }
+}
+```  
